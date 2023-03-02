@@ -1,0 +1,1 @@
+<view class="payment-success"><view class="f-active-color">恭喜您支付成功</view><view data-event-opts="{{[['tap',[['goshouye',['$event']]]]]}}" class="return-index" bindtap="__e">返回首页</view></view>

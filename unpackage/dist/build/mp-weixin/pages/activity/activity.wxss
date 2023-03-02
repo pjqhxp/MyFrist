@@ -1,0 +1,1 @@
+page{position:absolute;top:50%;left:0;width:100%;-webkit-transform:translateY(-50%);transform:translateY(-50%);border-radius:10rpx;text-align:center;height:100vh;background:url(/static/bg.jpg);background-size:cover;display:flex;justify-content:center;align-items:center}

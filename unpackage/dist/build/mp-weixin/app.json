@@ -1,0 +1,77 @@
+{
+    "pages": [
+        "pages/shouye/shouye",
+        "pages/user/login",
+        "pages/user/registration",
+        "pages/dangao/dangao",
+        "pages/mianbao/mianbao",
+        "pages/lingshi/lingshi",
+        "pages/gouwuche/gouwuche",
+        "pages/my/my",
+        "pages/detail/detail",
+        "pages/order/order",
+        "pages/order/my-order",
+        "pages/address/address",
+        "pages/address/address-detail",
+        "pages/search/search",
+        "pages/search/search-list",
+        "pages/detail/seardetail",
+        "pages/pay/pay",
+        "pages/pay/payment",
+        "pages/activity/activity"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "dangap",
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#ffffff"
+    },
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#f4ea2a",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/shouye/shouye",
+                "iconPath": "static/shouye.png",
+                "selectedIconPath": "static/shouye1.png"
+            },
+            {
+                "text": "蛋糕",
+                "pagePath": "pages/dangao/dangao",
+                "iconPath": "static/dangao.png",
+                "selectedIconPath": "static/dangao1.png"
+            },
+            {
+                "text": "面包",
+                "pagePath": "pages/mianbao/mianbao",
+                "iconPath": "static/mianbao.png",
+                "selectedIconPath": "static/mianbao1.png"
+            },
+            {
+                "text": "零食",
+                "pagePath": "pages/lingshi/lingshi",
+                "iconPath": "static/lingshi.png",
+                "selectedIconPath": "static/lingshi1.png"
+            },
+            {
+                "text": "购物车",
+                "pagePath": "pages/gouwuche/gouwuche",
+                "iconPath": "static/gouwuche.png",
+                "selectedIconPath": "static/gouwuche1.png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "nav-custom": "/components/nav-custom",
+        "shouye-title": "/components/shouye-title",
+        "food-item": "/components/food-item",
+        "nav-customtwo": "/components/nav-customtwo",
+        "nav-customthree": "/components/nav-customthree",
+        "line-line": "/components/line-line",
+        "order-list": "/components/orderList"
+    },
+    "sitemapLocation": "sitemap.json"
+}

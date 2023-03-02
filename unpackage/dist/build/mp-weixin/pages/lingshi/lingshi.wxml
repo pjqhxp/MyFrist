@@ -1,0 +1,1 @@
+<view><nav-custom vue-id="4d329682-1" bind:__l="__l"></nav-custom><view class="flex flex-wrap justify-between"><block wx:for="{{glist}}" wx:for-item="item" wx:for-index="__i0__"><food-item vue-id="{{'4d329682-2-'+__i0__}}" gdata="{{item}}" bind:__l="__l"></food-item></block></view></view>

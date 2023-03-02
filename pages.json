@@ -1,0 +1,204 @@
+{
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/shouye/shouye",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/user/registration",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/dangao/dangao",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/mianbao/mianbao",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/lingshi/lingshi",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/gouwuche/gouwuche",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},  {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false
+				
+			}
+
+		}, {
+			"path": "pages/order/my-order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/address/address-detail",
+			"style": {
+				"navigationBarTitleText": "新增地址",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/search/search-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+	    ,{
+            "path" : "pages/detail/seardetail",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" :
+            {
+                "navigationBarTitleText": "支付页面",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/pay/payment",
+            "style" :
+            {
+                "navigationBarTitleText": "支付成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "dangap",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#f4ea2a",
+		"backgroundColor": "#fff",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/shouye/shouye",
+				"iconPath": "static/shouye.png",
+				"selectedIconPath": "static/shouye1.png"
+			},
+			{
+				"text": "蛋糕",
+				"pagePath": "pages/dangao/dangao",
+				"iconPath": "static/dangao.png",
+				"selectedIconPath": "static/dangao1.png"
+			},
+			{
+				"text": "面包",
+				"pagePath": "pages/mianbao/mianbao",
+				"iconPath": "static/mianbao.png",
+				"selectedIconPath": "static/mianbao1.png"
+			},
+			{
+				"text": "零食",
+				"pagePath": "pages/lingshi/lingshi",
+				"iconPath": "static/lingshi.png",
+				"selectedIconPath": "static/lingshi1.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/gouwuche/gouwuche",
+				"iconPath": "static/gouwuche.png",
+				"selectedIconPath": "static/gouwuche1.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
